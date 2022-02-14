@@ -1,0 +1,72 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #17f; 
+}
+
+///
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: yellow; /* #17f; */ 
+    }
+    
+    div{
+        background-color: #fff; 
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 400px ;
+        border-radius: 6px;
+    }
+    
+    div h1{
+        text-align: center; 
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form input{
+       margin: 5px 0; /* marge entre de 5px entre les input */
+       padding: 5px 5px;
+       outline: 0;
+       border: 1px solid #000; /* Colorier la bordure en noir */
+       border-radius: 6px;
+    }
+    
+    form input[type='submit']{
+      background-color: #17f;
+      margin: 0;
+      color: #fff;
+      margin-top: 150px; /* Descend le input Valider de 150px en bas */
+      padding: 6px 0 ; /* Augmente l'espace intérieur du bouton */    
+    }
+
+    /*

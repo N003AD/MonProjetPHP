@@ -1,0 +1,21 @@
+
+<html>
+    <body>
+        
+        <!-- Exercice 7 : 
+        Entrer une date (jour/mois/année) à l’aide d’un formulaire
+        ,puis déterminer et afficher la date suivante et la date précédente.Le
+        champ est obligatoire. -->
+    
+    <form action="page.php">
+    <fieldset>
+            <legend>Informations personnelles :</legend>
+            Prénoms:<br><input type="text" name="prenoms" value=""><br>
+            Nom:<br><input type="text" name="nom" value=""><br><br>
+            <input type="date" name="bday"><br><br>
+            <input type="submit" value="Soumettre">
+    </fieldset>
+    </form>
+
+    </body>
+</html>

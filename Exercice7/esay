@@ -1,0 +1,31 @@
+
+<html>
+    <body>
+        
+        <!-- Exercice 7 : 
+        Entrer une date (jour/mois/année) à l’aide d’un formulaire
+        ,puis déterminer et afficher la date suivante et la date précédente.Le
+        champ est obligatoire.
+     <input type="date" name="d" value="<?php echo $d; ?>"> -->
+    
+     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+       <label for="">Entrer une date (jour/mois/année)</label>
+        <input type="texte" name="date" placeholder="01/01/2010">
+        <input type="submit" name="valider" value="Afficher">
+       
+    </form>
+
+    <?php
+    $saisi = $_POST['date'];
+    echo $saisi;
+    ?>
+    
+    </body>
+</html>
+
+
+
+<!-- 
+    
+    
+    
